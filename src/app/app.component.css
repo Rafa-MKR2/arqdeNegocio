@@ -1,0 +1,91 @@
+.content{
+  margin-left: 140px;
+  width: 100%;
+  padding: 8px 10px;
+}
+
+.container{
+  display: flex;
+  height: 600px;
+}
+
+
+/* Cabeçalho */
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nome-cabecalho{
+ display: flex;
+ justify-content: center;
+}
+
+.nome-login {
+  color: #B4564A;
+}
+.img-cabecalho{
+  margin-left: 20px;
+}
+.content-div{
+  background: #6f6665;
+  border-radius: 5px;
+  padding: 20px;
+  min-height: 420px;
+  border: 2px solid #E9CB5D;
+  font-size: 12px;
+  margin-top: -80px;
+}
+
+
+
+/* Responsivo */
+@media (max-width: 650px){
+  .content{
+    margin-left: 0;
+  }
+  .form-group{
+    flex-wrap: wrap;
+  }
+  .nome-cabecalho h1 {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 0px;
+  }
+  .content-div label {
+    font-size: 14px;
+  }
+  .content-div input {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+.suporte{
+  background: #131212;
+  margin-top: 10px;
+  max-width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #E9CB5D;
+}
+.suporte p{
+  color: white;
+}
+.suporte p span{
+  color: rgb(7, 68, 182);
+  margin-left: 10px;
+  cursor: pointer;
+}

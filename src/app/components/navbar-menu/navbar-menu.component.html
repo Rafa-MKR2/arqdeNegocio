@@ -1,0 +1,74 @@
+<nav ngClass="menu">
+  <ul>
+    <li>
+      <a routerLink="">
+       <div ngClass="img-menu">
+         <img src="assets/home.png">
+        </div>
+        <span>Home</span>
+      </a>
+    </li>
+    <li ngClass="submenu">
+     <a ngClass="link-menu">
+       <div ngClass="img-menu">
+         <img src="assets/user.png">
+        </div>
+       <span>Clientes</span>
+     </a>
+     <div ngClass="dropdown-menu">
+       <a routerLink="/cliente/cadastro-cliente">Cadastrar Clientes</a>
+       <a  routerLink="/cliente/lista-clientes">Listar Clientes</a>
+     </div>
+   </li>
+   <li ngClass="submenu">
+     <a ngClass="link-menu">
+       <div ngClass="img-menu">
+         <img src="assets/projetos.png">
+        </div>
+       <span>Projetos</span>
+     </a>
+     <div ngClass="dropdown-menu projetos-menu">
+      <a routerLink="/projetos/cadastro-projetos">Novo Projeto</a>
+      <a routerLink="/projetos/lista-projetos">Listar Projetos</a>
+    </div>
+   </li>
+   <li ngClass="submenu">
+     <a ngClass="link-menu">
+       <div ngClass="img-menu">
+         <img src="assets/briefing.png">
+        </div>
+       <span>Briefing</span>
+     </a>
+     <div ngClass="dropdown-menu briefing-menu">
+      <a  routerLink="/brifing/envia-briefing">Enviar Briefing </a>
+      <a  routerLink="/brifing/cria-formulario">Criar Novo Formulário</a>
+      <a  routerLink="/brifing/listar-briefing">Listar Briefing Enviados</a>
+    </div>
+   </li>
+   <li>
+     <a ngClass="link-menu">
+       <div ngClass="img-menu">
+         <img src="assets/levantamentos.png">
+        </div>
+       <span>Levantamentos</span>
+     </a>
+   </li>
+   <li>
+     <a ngClass="link-menu">
+       <div ngClass="img-menu">
+         <img src="assets/orçamentos.png">
+       </div>
+       <span>Orçamentos</span>
+     </a>
+   </li>
+   <li>
+     <a ngClass="link-menu">
+       <div ngClass="img-menu">
+         <img src="assets/produção.png">
+       </div>
+       <span>Produção</span>
+     </a>
+   </li>
+
+  </ul>
+</nav>

@@ -1,0 +1,24 @@
+table{
+  width: 100%;
+  color: white;
+}
+.control-btn{
+  background: #E9CB5D;
+  border: none;
+  margin-left: 10px;
+
+}
+
+
+
+/* Responsivo */
+@media (max-width: 650px){
+
+  .control-btn{
+    background: #E9CB5D;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+
+}

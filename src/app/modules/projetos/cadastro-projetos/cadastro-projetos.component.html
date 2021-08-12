@@ -1,0 +1,117 @@
+<div class="content-div">
+  <form  >
+    <label for="name">Nome Do Projeto</label>
+    <input type="text" id='nome-projeto' ngClass="campo-texto  mb-2" name='nome-projeto' required>
+
+    <label for="cpf">Selecione Cliente</label>
+    <input type="text" id='select-client' ngClass="campo-texto  mb-2" name='select-client' required>
+
+
+    <hr>
+
+    <div class="form-group check-box-container">
+
+      <label> Projeto:</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="projeto-checkbox" id="projeto-checkbox1">
+        <label class="form-check-label mt-1" for="projeto-checkbox1">
+         Residencial
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="projeto-checkbox" id="projeto-checkbox2" >
+        <label class="form-check-label mt-1" for="projeto-checkbox2">
+         Comercial / Corporativo
+        </label>
+      </div>
+
+      <div class="vl"></div>
+
+      <label> Tipo:</label>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="tipo-checkbox" id="tipo-checkbox1">
+        <label class="form-check-label mt-1" for="tipo-checkbox1">
+          Arquitetura
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="tipo-checkbox" id="tipo-checkbox2" >
+        <label class="form-check-label mt-1" for="tipo-checkbox2">
+         Inferiores
+        </label>
+      </div>
+
+    </div>
+
+
+    <label for="descricao">Descrição</label>
+    <input type="text" id='descricao' ngClass="campo-texto  mb-2" name='descricao' required>
+
+
+    <hr>
+
+    <div class="form-group check-box-container">
+
+      <label> Viabilidade Financeira Inclusa:</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="viabilidade-checkbox" id="viabilidade-checkbox1">
+        <label class="form-check-label mt-1" for="viabilidade-checkbox1">
+        Sim
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="viabilidade-checkbox" id="viabilidade-checkbox2" >
+        <label class="form-check-label mt-1" for="viabilidade-checkbox2">
+        Não
+        </label>
+      </div>
+
+      <div class="vl"></div>
+
+      <label> Visitas Inclusas?:</label>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="visitas-checkbox" id="visitas-checkbox1">
+        <label class="form-check-label mt-1" for="visitas-checkbox1">
+          Sim
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="visitas-checkbox" id="visitas-checkbox2" >
+        <label class="form-check-label mt-1" for="visitas-checkbox2">
+         Não
+        </label>
+      </div>
+
+    </div>
+    <label for="name">Quantas?</label>
+    <input type="text" id='quantidade-visitas' style="width: 100px; margin-right: 10px;" ngClass="campo-texto mb-2" name='quantidade-visitas' required>
+
+
+    <hr>
+
+    <div class="form-group">
+      <label for="name"  ngClass="mt-2">Quantidade de alterações?</label>
+      <input type="text" id='quantidade-visitas' ngClass="campo-texto" style="width: 100px; margin: 10px;" name='quantidade-alteracao' required>
+
+      <label ngClass="mt-2"> Produção incluso:</label>
+
+      <div class="form-check" style=" margin: 10px;">
+        <input class="form-check-input" type="radio" name="producao-checkbox" id="producao-checkbox1">
+        <label class="form-check-label " for="producao-checkbox1">
+          Sim
+        </label>
+      </div>
+      <div class="form-check" style=" margin: 10px;">
+        <input class="form-check-input" type="radio" name="producao-checkbox" id="producao-checkbox2" >
+        <label class="form-check-label" for="producao-checkbox2">
+         Não
+        </label>
+      </div>
+    </div>
+
+    <button type="submit" class="btn">Avançar</button>
+  </form>
+
+</div>

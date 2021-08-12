@@ -1,0 +1,36 @@
+
+<div ngClass="content-div">
+
+  <form [formGroup]="loginForm" (ngSubmit)="login()" ngClass="form-group">
+
+
+    <div ngClass="logo">
+    </div>
+    <app-message  *ngIf="loginForm.get('email')?.errors?.required" message="Error de teste"></app-message>
+
+          <label>E-mail:</label>
+          <input
+              formControlName="email"
+              type="email"
+              class="form-control"
+              placeholder="digite email"
+              autofocus>
+    <br>
+
+    <label>Senha:</label>
+          <input
+          formControlName="password"
+              type="password"
+              class="form-control"
+              placeholder="digite sua senha">
+
+      <button
+          type="submit"
+          class="btn btn-primary btn-block">
+          Entrar
+      </button>
+
+  </form>
+</div>
+
+
